@@ -9,12 +9,12 @@
    </head>
    <body>
       <div class="container">
-         <button type="submit" class="btn">submit</button>
-         <div class="popup">
-            <img src="404-tick.png" alt="validation">
+         <button type="submit" class="btn" onclick="openPopup()">submit</button>
+         <div class="popup" id="popup">
+            <img src="404-tick.png" alt="validation" />
             <h2>Thank You!</h2>
             <p>Your details has benn successfully submitted. Thanks!</p>
-            <button type="button">OK</button>
+            <button type="button" onclick="closePopup()">OK</button>
          </div>
       </div>
    </body>
